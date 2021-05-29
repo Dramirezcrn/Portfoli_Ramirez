@@ -1,0 +1,151 @@
+
+body{
+
+
+}
+
+
+#cabeza{
+
+width:500px;
+height:550px;
+clip-path: polygon(50% 0%, 80% 10%, 98% 31%, 93% 65%, 76% 81%, 48% 95%, 8% 99%, 0% 70%, 0% 35%, 20% 10%);
+
+
+background-color: #fdddca;
+
+
+margin: 0 auto;
+
+
+
+}
+
+
+#ceja{
+  position:absolute;
+  top:200px;
+  left:900px;
+  clip-path: polygon(50% 0%, 0 31%, 100% 45%);
+  width:50px;
+  height:50px;
+  background-color: black;
+}
+#ceja2{
+  position:absolute;
+  top:180px;
+  left:790px;
+  clip-path: polygon(50% 0%, 0 31%, 100% 45%);
+  width:50px;
+  height:50px;
+  background-color: black;
+}
+
+.ojo{
+
+  height: 75px;
+  width: 50px;
+  background-color:white;
+  position:relative;
+  border-radius: 50px;
+
+}
+#ojo{
+  top: 200px;
+  left:200px;
+}
+
+#ojo2{
+  top: 110px;
+  left:100px;
+}
+
+.ojo:before, .ojo2:before{
+  width: 25px;
+  height: 25px;
+  background-color: cyan;
+  border-radius: 50%;
+
+  position: absolute;
+  content: "";
+  top:30px;
+  left:10px;
+
+
+}
+#nariz{
+position:relative;
+top:150px;
+left:100px;
+width: 100px;
+height: 100px;
+clip-path: polygon(40% 16%, 66% 16%, 55% 49%, 15% 49%);
+background-color:  #fcd1c6;
+
+}
+
+.piercing{
+  position:relative;
+  width:30px;
+  height: 5px;
+  border: black 1px;
+  background-color: #C0C0C0;
+  top:100px;
+  left:110px;
+}
+
+.piercing:after{
+  width: 5px;
+  height: 10px;
+  background-color: #C0C0C0;
+  border-radius: 70%;
+  border: solid black 2px;
+  position: absolute;
+  content: "";
+  left:-5px;
+  top:0px;
+}
+
+
+.piercing:before{
+  width: 5px;
+  height: 10px;
+  background-color: #C0C0C0;
+  border-radius: 70%;
+  border: solid black 2px;
+  position: absolute;
+  content: "";
+  left:22px;
+  top:0px;
+}
+
+#pelo{
+  clip-path: polygon(30% 26%, 95% 19%, 50% 48%, 0% 100%);
+
+
+  width: 600px;
+  height:600px;
+  background-color:brown;
+  position: absolute;
+  top:-130px;
+  left:500px;
+}
+
+
+#pelo2{
+  clip-path: polygon(50% 38%, 20% 18%, 74% 22%, 81% 89%);
+  width: 600px;
+  height:600px;
+  background-color:brown;
+  position: absolute;
+  top:-110px;
+  right:550px;
+}
+#boca{
+  clip-path: polygon(72% 0, 50% 4%, 37% 0);
+  background-color: black;
+  height:400px;
+  width:200px;
+  position: absolute;
+  top:400px;
+}

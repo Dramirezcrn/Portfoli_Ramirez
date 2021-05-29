@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  background-color: red;
+  text-align: center;
+}
+
+.cajas{
+  background-color: white;
+  border: black 5px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 15px;
+
+}
+
+#logo{
+  position: absolute;
+  margin-left: -900px;
+  height: 110px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+input{
+  margin-left: 5px;
+
+}
+
+h2{
+  color: white;
+}
