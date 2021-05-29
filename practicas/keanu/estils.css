@@ -1,0 +1,49 @@
+
+
+div{
+  background-image: url("img/549199.jpg");
+  background-size: 500px;
+  width: 400px;
+  height: 300px;
+  float:left;
+  font-size: 20px;
+  margin: 20px;
+font-size: 50px;
+text-align: right;
+font-style: oblique;
+font-family: fantasy;
+
+
+
+}
+
+body{
+  background-color: pink;
+}
+
+
+
+
+
+p{
+  margin-right: 20px;
+
+}
+
+ #boton{
+
+   background-color: cyan;
+   background-image: none;
+
+   line-height: inherit;
+   text-indent: inherit;
+   -webkit-text-stroke: 0px;
+   border-radius: 100px;
+   text-align: center;
+   line-height: 200px;
+   float: right;
+   position: fixed;
+    right: 30px;
+    bottom:30px;
+    font-size: 50px;
+  }
