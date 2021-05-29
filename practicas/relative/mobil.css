@@ -1,0 +1,54 @@
+
+@media only screen and (max-width: 424px){
+
+  body{
+    background-color: red;
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+
+
+
+}
+
+
+
+.cajitas{
+
+  height: 120px;
+  width: 120px;
+  background-color: yellow;
+
+   border: red 5px solid;
+   float: left;
+  margin-left: 50px;
+   margin-top: 10px;
+
+
+
+
+}
+#cabeza{
+  background-color: green;
+  width: 450px;
+  height:100px;
+
+
+
+
+
+
+
+
+}
+
+footer{
+  background-color: green;
+  width: 120%;
+  height:10%;
+  position: absolute;
+  bottom: 0;
+
+
+}
