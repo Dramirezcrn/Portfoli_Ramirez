@@ -1,0 +1,58 @@
+body{
+
+}
+
+#cabecera{
+  width: 1920px;
+  height:100px;
+  background-color: #581845;
+  margin: -10px ;
+  margin-top: -20px;
+
+}
+
+#contenedor{
+  align-content: center;
+
+  height:500px;
+  width:1900px;
+  display: block;
+}
+
+.cajones{
+  width:200px;
+  height:200px;
+  line-height: 150px;
+
+  float:left;
+  margin:130px;
+  text-align: center;
+  background-color: cyan;
+  opacity: 40%;
+  cursor: pointer;
+  border-radius: 20%;
+
+
+}
+.cajones:hover{
+  opacity: 100%;
+  transition: all 0.2s ease;
+  color: rgba(255, 255, 255, 1) !important;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+
+#TITULO{
+    line-height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+h2{
+  font-family: 'Inconsolata', monospace;
+}
